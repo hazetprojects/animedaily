@@ -103,7 +103,7 @@ body {
 }
 
 .headline {
-    padding-top: 150px;
+    padding-top: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -435,7 +435,7 @@ body {
 
 
     .headline h1 {
-        font-size: 20px;
+        font-size: 25px;
         max-width: 90%;
     }
 
