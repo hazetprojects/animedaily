@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info | Animedaily</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/info.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="asset/X.png" type="image/png">
+</head>
+<body>
+    <div class="navbar">
+        <div class="hd1"> 
+            <img src="asset/animedaily logo 4.png" alt="logo">
+        </div>
+
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="hd2">
+            <a href="index.html">Home</a>
+            <a href="info.html">Info</a>
+            <a href="donasi.html">Support</a>
+        </div>
+    </div>
+    <div class="all">
+        <div class="card">
+            <div class="headline">
+                <i class='bx bx-globe'></i>
+                <h1>Tentang Web ini</h1>
+            </div>
+            <div class="gmb-penjelasan">
+                <img src="asset/animedaily banner.jpg" alt="gambar1">
+            </div>
+            <div class="subheadline">
+                <p>Selamat datang di blog ini. <b>Website ini masih dalam tahap pengembangan,</b> dan sedang aku bangun sedikit demi sedikit dengan penuh semangat.
+                <br><br>
+                Tujuan dari web ini adalah untuk menjadi sumber informasi menarik seputar dunia anime, terutama buat kamu yang suka :
+                <br><br>
+                - 📅 Update tentang anime yang akan tayang, info adaptasi manga, atau hal-hal menarik lainnya.
+                <br><br>
+                - 🔍 Mengenal karakter anime lebih dalam (biodata, kepribadian, cerita hidup, dan fakta unik dan lain lain).
+                <br><br>
+                - 📝 Baca konten seperti blog: mulai dari opini, list rekomendasi, hingga teori para penggemar.
+            </p>
+            </div>
+            <div class="baseline">
+                <p><b><span class="edit">Terima kasih sudah mampir 🙏</span></b> Jangan lupa simpan alamat blog ini dan kunjungi lagi lain waktu buat baca konten-konten seru lainnya! 🙌</p>
+            </div>
+            <div class="sp">
+                <a href="donasi.html">Support</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; Copyright By Animedaily</p>
+        <p>Made With :</p>
+        <div class="icon">
+            <i class='bx bxl-visual-studio'></i>
+            <i class='bx bxl-figma'></i>
+            <i class='bx bxl-github' ></i>
+        </div>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.hd2');
+    
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+    </script>
+</body>
+</html>

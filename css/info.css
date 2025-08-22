@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hd1 img{
+    width: 150px;
+    padding-left: 40px;
+    
+}
+
+.hd2  {
+    padding-right: 40px;
+}
+
+.hd2 a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #da77f2;
+    margin: 10px;
+    font-size: 17px;
+}
+
+
+.hd2 a:hover {
+    color: #f783ac;
+
+}
+/* Responsife mobile */
+
+.menu-toggle {
+    display: none;
+    color: #da77f2;
+    font-size: 28px;
+    cursor: pointer;
+    padding-right: 70px;
+}
+
+.menu-toggle:hover {
+    color: #f783ac;
+
+
+}
+
+
+@media (max-width: 768px) {
+    .hd2 {
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hd2.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+
+/* Responsife mobile  */
+
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding-bottom: 60px;
+    width: 600px;
+
+}
+
+.headline {
+    padding-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.headline i {
+    color: #7950F2;
+    font-size: 30px;
+
+}
+
+.headline h1 {
+    background: linear-gradient(90deg, #7950F2, #BE4BDB);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+
+}
+
+.gmb-penjelasan {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.gmb-penjelasan img {
+    width: 400px;
+    height: auto;
+}
+
+
+.subheadline {
+    padding-top: 30px;
+    text-align: justify;
+    justify-content: center;
+    display: flex;
+}
+
+.subheadline p {
+    text-align: justify;
+    max-width: 400px;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.baseline {
+    text-align: justify;
+    justify-content: center;
+    display: flex;
+}
+
+.baseline p {
+    max-width: 400px;
+    color: #495057;
+    line-height: 1.5;
+}
+
+.edit {
+    color: #7950F2;
+}
+
+.sp {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+} 
+
+.sp a {
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #7950F2;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 600;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.sp a:hover {
+    background-color: #BE4BDB;
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+
+.gmb-penjelasan2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.gmb-penjelasan2 img {
+    width: 300px;
+    height: auto;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: #da77f2;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+}
+
+.footer p {
+    font-weight: 500;
+}
+
+.icon i {
+    color: #da77f2;
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+} 
+
+.icon i:hover {
+    color: #f783ac;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 95%;
+    }
+
+    .gmb-penjelasan img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .headline {
+        font-size: 15px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .subheadline p {
+        font-size: 14px;
+        max-width: 85%;
+    }
+
+    .baseline p {
+        font-size: 14px;
+        max-width: 85%;
+    }
+}

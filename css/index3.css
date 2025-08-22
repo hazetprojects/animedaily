@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hd1 img{
+    width: 150px;
+    padding-left: 40px;
+    
+}
+
+.hd2  {
+    padding-right: 40px;
+}
+
+.hd2 a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #da77f2;
+    margin: 10px;
+    font-size: 17px;
+}
+
+
+.hd2 a:hover {
+    color: #f783ac;
+
+}
+/* Responsife mobile */
+
+.menu-toggle {
+    display: none;
+    color: #da77f2;
+    font-size: 28px;
+    cursor: pointer;
+    padding-right: 70px;
+}
+
+.menu-toggle:hover {
+    color: #f783ac;
+
+
+}
+
+
+@media (max-width: 768px) {
+    .hd2 {
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hd2.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+
+/* Responsife mobile  */
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding-bottom: 60px;
+    width: 600px;
+    
+}
+
+.main1 {
+    margin: 0;
+    padding: 0;
+}
+
+.headline h1, .subheadline i, .subheadline p{
+    margin: 0;
+    padding: 0;
+}
+
+.headline {
+    padding-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.headline h1 {
+    font-size: 24px;
+    max-width: 470px;
+    word-wrap: break-word;
+}
+
+.subheadline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #7950F2;
+    
+}
+
+.gmb {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.gmb img{
+    width: 400px;
+    height: auto;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+
+.baseline {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #495057;
+}
+
+.bs1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 400px;
+    font-size: 14px;
+
+}
+
+.bs1 i {
+    font-size: 25px;
+
+}
+
+.bs2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bs2 p {
+    text-align: justify;
+    max-width: 400px;
+    color: #495057;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+
+.bs3 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bs3 p {
+    margin-top: 30px;
+    text-align: justify;
+    max-width: 400px;
+    color: #495057;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: #da77f2;
+    width: 100%;
+    height: 140px;
+    text-align: center;
+}
+
+.footer p {
+    font-weight: 500;
+}
+
+.icon i {
+    color: #da77f2;
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+} 
+
+.icon i:hover {
+    color: #f783ac;
+}
+
+/* color: #f783ac; */
+
+
+@media (max-width :768px) {
+    .card {
+        width: 95%;
+    }
+
+    .headline h1 {
+        font-size: 20px;
+        max-width: 87%;
+        text-align: center;
+    }
+
+    .subheadline {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .gmb img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .baseline {
+        padding-left: 55px;
+    }
+
+    .baseline h2 {
+        font-size: 16px;
+    }
+
+    .baseline i {
+        font-size: 18px;
+    }
+
+    .bs2 p {
+        font-size: 14px;
+        max-width: 80%;
+
+    }
+
+    .bs3 p {
+        font-size: 14px;
+        max-width: 80%;
+    }
+
+    
+}
