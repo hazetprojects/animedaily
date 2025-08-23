@@ -229,7 +229,7 @@ body {
 
 @media (max-width :768px) {
     .card {
-        width: 100%;
+        width: 90%;
     }
 
     .headline h1 {
@@ -277,5 +277,9 @@ body {
         max-width: 80%;
     }
 
+    .footer {
+        max-width: 100%;
+        width: 100%;
+    }
     
 }
